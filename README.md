@@ -1,19 +1,40 @@
 # Durgaprasad Sunkara
 
-**Cloud & Platform Engineering | Kubernetes | DevOps | Infrastructure Automation**
+**DevOps / Platform Engineer | Kubernetes | Cloud Infrastructure | CI/CD**
 
 Hamburg, Germany · Open to relocation
 
-I work on cloud-native infrastructure, Kubernetes operations and automation. My projects focus on platform reliability, observability, infrastructure as code and safer operational workflows.
+DevOps / Platform Engineer with over 3 years of hands-on experience across Skillmine Technology Consulting, Test Yantra and AIcoo GmbH. At AIcoo in Hamburg, I own the DevOps environment for an LLM-based coordinator platform: k3s on Hetzner Cloud, Kubernetes configuration with Kustomize, CI/CD with GitHub Actions and self-hosted runners, secrets management, observability and disaster recovery.
+
+I built the platform from its initial manifests through development and staging deployments. I am completing an MSc in Applied Data Science and Analytics at SRH Hochschule Hamburg (expected March 2027) and writing my master's thesis at AIcoo.
 
 ## Engineering focus
 
-- **Containers & orchestration:** Docker, Kubernetes, k3s
-- **Infrastructure:** Terraform, Linux, infrastructure automation
-- **CI/CD & GitOps:** GitHub Actions, Argo CD
-- **Observability:** Prometheus, Grafana, Loki
-- **Automation & services:** Python, FastAPI, Bash
-- **Cloud:** AWS and GCP — cloud platform areas of focus
+- **Containers & orchestration:** Kubernetes (k3s), Docker, Helm, Kustomize, OpenShift
+- **Cloud & infrastructure:** AWS, Azure, GCP, Hetzner Cloud, Terraform, IAM
+- **CI/CD & GitOps:** GitHub Actions, Jenkins, Argo CD
+- **Observability:** Prometheus, Grafana, Loki, Promtail
+- **Data & ML infrastructure:** PostgreSQL, pgvector, RAG pipelines
+- **Tools:** PowerShell, Jira
+
+## Professional experience
+
+- **DevOps / Platform Engineer — AIcoo GmbH, Hamburg** (April 2026–present)
+  - Own the DevOps environment for a coordinator platform with a FastAPI backend, frontend and PostgreSQL on k3s hosted by Hetzner Cloud.
+  - Built 28 Kubernetes manifests with Kustomize, including development and staging overlays, Deployments and a PostgreSQL StatefulSet.
+  - Built GitHub Actions CI/CD with a self-hosted runner to build images, publish to GHCR, run database migrations and deploy to development and staging.
+  - Introduced Sealed Secrets, deployed Prometheus/Grafana/Loki/Promtail, and wrote and tested disaster-recovery procedures.
+  - Troubleshoot workload, image-pull, database credential, migration and deployment workflow issues; maintain runbooks and resource conventions.
+  - Master's thesis work (since October 2026): a Docker-based MLOps-style pipeline for LLM-based extraction of project emails from the Enron corpus.
+
+- **DevOps Engineer — Skillmine Technology Consulting, Bengaluru** (April 2023–August 2024)
+- **Junior DevOps Engineer — Test Yantra, Bengaluru** (November 2021–February 2023; project assignment from June 2022)
+- **Software Associate — Tech Mahindra** (March 2020–September 2021)
+
+## Education
+
+**MSc Applied Data Science and Analytics — SRH Hochschule Hamburg**  
+Expected completion: March 2027
 
 ## Selected projects
 
