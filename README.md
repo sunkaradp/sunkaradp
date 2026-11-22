@@ -6,7 +6,7 @@ I build and operate cloud-native infrastructure, Kubernetes platforms and automa
 
 Hamburg, Germany · Open to DevOps, Platform and Cloud Engineering opportunities across Germany and Europe · Open to relocation
 
-[![Kubernetes](https://img.shields.io/badge/Kubernetes-326CE5?logo=kubernetes&logoColor=white)](https://kubernetes.io/) [![Docker](https://img.shields.io/badge/Docker-2496ED?logo=docker&logoColor=white)](https://www.docker.com/) [![AWS](https://img.shields.io/badge/AWS-232F3E?logo=amazonaws&logoColor=white)](https://aws.amazon.com/) [![Terraform](https://img.shields.io/badge/Terraform-844FBA?logo=terraform&logoColor=white)](https://www.terraform.io/) [![Python](https://img.shields.io/badge/Python-3776AB?logo=python&logoColor=white)](https://www.python.org/) [![GitHub Actions](https://img.shields.io/badge/GitHub_Actions-2088FF?logo=githubactions&logoColor=white)](https://github.com/features/actions)
+**Technologies:** Kubernetes · Docker · AWS · Terraform · Python · GitHub Actions
 
 ## Featured engineering work
 
