@@ -2,6 +2,10 @@
 
 **DevOps / Platform Engineer | Kubernetes | Cloud Infrastructure | CI/CD**
 
+[![Kubernetes](https://img.shields.io/badge/Kubernetes-326CE5?logo=kubernetes&logoColor=white)](https://kubernetes.io/) [![Docker](https://img.shields.io/badge/Docker-2496ED?logo=docker&logoColor=white)](https://www.docker.com/) [![AWS](https://img.shields.io/badge/AWS-232F3E?logo=amazonaws&logoColor=white)](https://aws.amazon.com/) [![Terraform](https://img.shields.io/badge/Terraform-844FBA?logo=terraform&logoColor=white)](https://www.terraform.io/) [![Python](https://img.shields.io/badge/Python-3776AB?logo=python&logoColor=white)](https://www.python.org/) [![GitHub Actions](https://img.shields.io/badge/GitHub_Actions-2088FF?logo=githubactions&logoColor=white)](https://github.com/features/actions)
+
+**Live project CI:** [k3s-ai-remediation](https://github.com/sunkaradp/k3s-ai-remediation/actions/workflows/ci.yml) · [k8s-platform-intelligence](https://github.com/sunkaradp/k8s-platform-intelligence/actions/workflows/ci.yml)
+
 Hamburg, Germany · Open to relocation across Germany and Europe
 
 DevOps / Platform Engineer with 3+ years of experience across cloud infrastructure, automation and application delivery. My recent hands-on work includes building and operating Kubernetes-based environments on Hetzner Cloud, implementing CI/CD with GitHub Actions and self-hosted runners, managing application configuration and secrets, and establishing monitoring and recovery procedures.
