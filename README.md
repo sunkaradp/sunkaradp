@@ -6,7 +6,7 @@ I build and operate cloud-native infrastructure, Kubernetes platforms and automa
 
 Hamburg, Germany · Open to DevOps, Platform and Cloud Engineering roles across Germany and Europe · Open to relocation
 
-**Core stack:** Kubernetes · Docker · Terraform · AWS · Hetnet Cloud · Python · GitHub Actions · Prometheus · Grafana
+**Core stack:** Kubernetes · Docker · Terraform · AWS · Hetzner Cloud · Python · GitHub Actions · Prometheus · Grafana
 
 ## Featured engineering work
 
