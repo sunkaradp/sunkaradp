@@ -1,45 +1,38 @@
-# Durga Prasad Sunkara
+# Durgaprasad Sunkara
 
 **DevOps Engineer | Platform Engineering | Kubernetes | Cloud Infrastructure**
 
-I build and operate cloud-native infrastructure, Kubernetes platforms and automated delivery workflows. I focus on reliable deployments, practical automation, observability and safe operations.
+I build and operate cloud-native infrastructure, Kubernetes platforms and automated delivery workflows. My focus is reliable deployments, practical automation, observability, secure operations and clear engineering documentation.
 
 Hamburg, Germany · Open to DevOps, Platform and Cloud Engineering roles across Germany and Europe · Open to relocation
 
-**Core stack:** Kubernetes · Docker · Terraform · AWS · Hetzner Cloud · Python · GitHub Actions · Prometheus · Grafana
+**Core stack:** Kubernetes · Docker · Terraform · AWS · Hetzner Cloud · Python · GitHub Actions · Prometheus · Grafana · TypeScript
 
 ## Featured engineering work
 
 ### [AlertScope — Kubernetes alert investigation](https://github.com/sunkaradp/alertscope)
-An Alertmanager webhook service that gathers Prometheus metrics, Loki logs and Kubernetes pod context, then uses an LLM to produce an evidence-based first-pass diagnosis and send it to Slack. Supports Bedrock and Vertex AI, with a local stub provider for development. Designed to remain useful when an individual data source or the LLM is unavailable.
+An Alertmanager webhook service that gathers Prometheus metrics, Loki logs and Kubernetes pod context, then produces an evidence-based first-pass diagnosis and sends findings to Slack. Supports Bedrock and Vertex AI, with a deterministic local stub for development. Includes a browser console, Helm deployment, Terraform examples and CI workflows. The public Pages site is a frontend; the FastAPI service and telemetry stack must be deployed separately.
 
-```mermaid
-flowchart LR
-    A[Alertmanager] -->|webhook| B[AlertScope]
-    B --> C[Prometheus]
-    B --> D[Loki]
-    B --> E[Kubernetes API]
-    B --> F[Bedrock / Vertex AI]
-    B --> G[Slack]
-    B --> H[JSON logs / Grafana]
-```
+### [Deployment Dash Intelligence — Kubernetes manifest risk analysis](https://github.com/sunkaradp/deployment-dash-intelligence)
+A read-only analyzer for Kubernetes YAML that reports explainable configuration and security findings, evidence paths and remediation guidance. Includes browser-side analysis, a CLI and a composite GitHub Action. The optional FastAPI API is intended for private/local use and must not be exposed publicly without adding authentication, authorization and rate limiting.
+[Public demo](https://sunkaradp.github.io/deployment-dash-intelligence/)
 
 ### [Kubernetes Incident Remediation for k3s](https://github.com/sunkaradp/k3s-ai-remediation)
-A policy-controlled incident response prototype connecting alerts, diagnosis and predefined Kubernetes runbooks. Defaults to observe and dry-run modes; higher-risk actions are gated.
+A policy-controlled incident response prototype connecting alert context, diagnosis and predefined Kubernetes runbooks. Defaults to observe and dry-run modes; medium-risk actions require approval, and the model cannot execute arbitrary shell or Kubernetes commands. End-to-end cluster deployment and chaos-test measurements remain on the roadmap.
 
 ### [Kubernetes Platform Intelligence](https://github.com/sunkaradp/k8s-platform-intelligence)
-An observe-only Kubernetes operator experiment that uses Prometheus time-series data to estimate node memory pressure and emits native Kubernetes Warning Events.
+An observe-only Kubernetes operator experiment that estimates node memory pressure from Prometheus time-series data and emits native Kubernetes Warning Events. Tested on Minikube; predictions are investigation signals, not automated remediation or production guarantees.
 
 ### [EV Charging Sessions](https://github.com/sunkaradp/ev-charging-sessions)
-A collaborative data-engineering project covering Kafka event ingestion, Airflow batch transformations and analytics. My documented contributions include producer reliability, transformation tests and Python CI.
+A collaborative data-engineering project using Kafka, Airflow and analytics. My documented contributions include producer reliability improvements, reusable batch transformation tests, Python CI coverage and repository hygiene.
 
 ## Technical focus
 
 - **Containers & orchestration:** Kubernetes (k3s), Docker, Helm, Kustomize
 - **Cloud & infrastructure:** Hetzner Cloud, AWS, Terraform, IAM, GCP project work
 - **CI/CD & GitOps:** GitHub Actions, self-hosted runners, GHCR, Argo CD
-- **Observability:** Prometheus, Grafana, Loki, Promtail
-- **Application & data infrastructure:** Linux, Python, FastAPI, PostgreSQL, Kafka, Airflow
+- **Observability & operations:** Prometheus, Grafana, Loki, Promtail, incident troubleshooting, backup and recovery
+- **Application & data infrastructure:** Linux, Python, FastAPI, PostgreSQL, Kafka, Airflow, TypeScript
 
 ## Experience
 
@@ -50,9 +43,9 @@ A collaborative data-engineering project covering Kafka event ingestion, Airflow
 - Implemented GitHub Actions CI/CD with a self-hosted runner to build images, publish to GHCR, run database migrations and deploy to development and staging.
 - Worked on secrets management, observability, operational runbooks and disaster-recovery procedures.
 
-**Master's Thesis — AIcoo GmbH / SRH Hochschule Hamburg** · October 2026 – Present
+**Master's Thesis — AIcoo GmbH / SRH University** · October 2026 – Present
 
-Building a Docker-based pipeline for LLM-assisted extraction and analysis of project-related emails from the Enron corpus, with a focus on data processing, evaluation and reproducibility.
+Building a Docker-based pipeline for LLM-assisted extraction and analysis of emails from the Enron corpus, with a focus on data processing, evaluation and reproducibility.
 
 **Previous experience**
 - DevOps Engineer — Skillmine Technology Consulting · April 2023 – August 2024
@@ -61,7 +54,7 @@ Building a Docker-based pipeline for LLM-assisted extraction and analysis of pro
 
 ## Education
 
-**MSc Applied Data Science and Analytics — SRH Hochschule Hamburg** · Expected March 2027
+**MSc Applied Data Science and Analytics — SRH University of Applied Sciences Hamburg** · Expected March 2027
 
 ## Engineering principles
 
